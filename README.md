@@ -32,9 +32,7 @@ Now every directory the user `cd`s into will have a `~` folder.
 
 ## 3. Slow down the terminal
 
-```
-echo "echo 'sleep .1' >> ~/.bashrc" >> ~/.bashrc
-```
+![echo "echo 'sleep .1' >> ~/.bashrc" >> ~/.bashrc](./img/1.svg)
 
 So a `sleep .1` is added to `~/.bashrc` everytime the user starts a new terminal. So the terminal startup time increases with every use, slowly, but surely.
 
@@ -50,7 +48,7 @@ And so on.
 
 File names with trailing spaces are perfectly legal. Watch them struggle deleting it :laughing:
 
-![file-with-spaces.png](./file-with-spaces.png)
+![file-with-spaces.png](./img/file-with-spaces.png)
 
 ## 5. Ssshhh! - macOS only
 
