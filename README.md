@@ -2,11 +2,11 @@
 Here is a list of all my favourite \*nix pranks
 
 Table of Contents
-- [1. Change ssh to shh](#1-Change-ssh-to-shh)
-- [2. Create a `~` folder](#2-Create-a-folder)
-- [3. Slow down their terminal](#3-Slow-down-their-terminal)
-- [4. File names that end with spaces](#4-File-names-that-end-with-spaces)
-- [5. Ssshhh! - macOS only](#5-Ssshhh-macOS-only)
+- [1. Change ssh to shh](#1-change-ssh-to-shh)
+- [2. Create a `~` folder](#2-create-a--folder)
+- [3. Slow down the terminal](#3-slow-down-the-terminal)
+- [4. File names that end with spaces](#4-file-names-that-end-with-spaces)
+- [5. Ssshhh! - macOS only](#5-ssshhh---macos-only)
 
 ## 1. Change ssh to shh
 
