@@ -17,6 +17,7 @@ mv ~/.ssh ~/.shh
 From this: https://twitter.com/nixcraft/status/1045760653510815744
 
 ## 2. Create a `~` folder
+**Note**: Potentially destructive. Use caution.
 <!-- ![mkdir '~' && echo "kghkjhlkjh" > ./'~'/1](./img/2.1.png) -->
 ![](./img/whitepng/2.1.png) 
 
