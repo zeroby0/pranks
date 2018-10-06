@@ -1,5 +1,5 @@
 # Pranks
-Here is a list of all my favourite \*nix pranks
+Here is a list of all my favourite \*nix & Windows pranks.
 
 Table of Contents
 - [1. Change ssh to shh](#1-change-ssh-to-shh)
@@ -7,6 +7,10 @@ Table of Contents
 - [3. Slow down the terminal](#3-slow-down-the-terminal)
 - [4. File names that end with spaces](#4-file-names-that-end-with-spaces)
 - [5. Ssshhh! - macOS only](#5-ssshhh---macos-only)
+- [6. Upside down Windows - Windows Only](#6-upside-down-windows)
+- [7. Change Editors!](#7-change-editors)
+- [8. Install sl](#8-install-sl)
+- [9. Make `date` return random dates](#9-make-date-return-random-dates)
 
 ## 1. Change ssh to shh
 <!-- ![mv ~/.ssh ~/.shh](./img/1.png) -->
@@ -78,4 +82,57 @@ Now, add this to `~/.bashprofile`
 
 ```
 alias ssh="osascript -e 'set volume 10' && say -v whisper shh && ssh"
+```
+
+## 6. Upside down Windows
+
+Every one knows that `ctrl + shift + down-arrow` inverts the desktop. Instead, 
+
+* Take a screenshot of the normal Desktop, invert it horizontally and vertically in paint. 
+* Then disable icons and auto hide the taskbar.
+* Set the previous inverted image as Wallpaper.
+* optional: Invert mouse and arrow keys from settings
+* Now invert the Desktop!
+
+## 7. Change Editors!
+
+Modify the `.bashrc` to include this:  
+
+![](./img/whitepng/7.png)  
+
+```
+alias nano="/usr/bin/vi"
+alias vi="/usr/bin/nano"
+alias vim="/usr/bin/emacs"
+alias emacs="/usr/bin/vim"
+```
+
+## 8. Install sl
+
+Install sl and leave it be. Everyone is bound to type `sl` instead of `ls` at some point of time.
+
+https://www.youtube.com/watch?v=9GyMZKWjcYU
+
+## 9. Make `date` return random dates
+
+This might need some tweaking in some systems, especially BSD versions of `date` command.  Add these to `.bashrc`.
+
+![](./img/whitepng/9.1.png)  
+
+``` sh
+ alias date='date -d "now + $RANDOM days"'
+```
+
+Similarly, for the `cal` command,
+
+![](./img/whitepng/9.2.png)  
+
+``` sh
+function cal() {
+    if [ $# -eq 0 ]; then # If no arguments
+        /usr/bin/cal -m $(date +%b) $(( ((RANDOM<<15)|RANDOM) % 45 + 2000 ));
+    else
+        /usr/bin/cal $(( ((RANDOM<<15)|RANDOM) % 45 + 2000 ));
+    fi;
+}
 ```
