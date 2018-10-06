@@ -2,9 +2,9 @@
 Here is a list of all my favourite \*nix & Windows pranks.
 
 Table of Contents
-- [1. Change ssh to shh](#1-change-ssh-to-shh)
+- [1. Slow down the terminal](#1-slow-down-the-terminal)
 - [2. Create a `~` folder](#2-create-a--folder)
-- [3. Slow down the terminal](#3-slow-down-the-terminal)
+- [3. Change ssh to shh](#3-change-ssh-to-shh)
 - [4. File names that end with spaces](#4-file-names-that-end-with-spaces)
 - [5. Ssshhh! - macOS only](#5-ssshhh---macos-only)
 - [6. Upside down Windows - Windows Only](#6-upside-down-windows)
@@ -12,13 +12,17 @@ Table of Contents
 - [8. Install sl](#8-install-sl)
 - [9. Make `date` return random dates](#9-make-date-return-random-dates)
 
-## 1. Change ssh to shh
-<!-- ![mv ~/.ssh ~/.shh](./img/1.png) -->
+
+## 1. Slow down the terminal
+
 ![](./img/whitepng/1.png) 
+<!-- ![](./img/3.png) -->
+
 ```
-mv ~/.ssh ~/.shh
+echo "echo 'sleep .1' >> ~/.bashrc" >> ~/.bashrc
 ```
-From this: https://twitter.com/nixcraft/status/1045760653510815744
+
+So a `sleep .1` is added to `~/.bashrc` everytime the user starts a new terminal. So the terminal startup time increases with every use, slowly, but surely.
 
 ## 2. Create a `~` folder
 **Note**: Potentially destructive. Use caution.
@@ -43,16 +47,14 @@ alias cd="mkdir -p '~' && echo "kghkjhlkjh" > ./'~'/1 && cd"
 ```
 Now every directory the user `cd`s into will have a `~` folder.
 
-## 3. Slow down the terminal
-
+## 3. Change ssh to shh
+<!-- ![mv ~/.ssh ~/.shh](./img/1.png) -->
 ![](./img/whitepng/3.png) 
-<!-- ![](./img/3.png) -->
-
 ```
-echo "echo 'sleep .1' >> ~/.bashrc" >> ~/.bashrc
+mv ~/.ssh ~/.shh
 ```
+From this: https://twitter.com/nixcraft/status/1045760653510815744
 
-So a `sleep .1` is added to `~/.bashrc` everytime the user starts a new terminal. So the terminal startup time increases with every use, slowly, but surely.
 
 ## 4. File names that end with spaces
 
