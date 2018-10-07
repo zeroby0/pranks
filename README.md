@@ -11,6 +11,7 @@ Table of Contents
 - [7. Change Editors!](#7-change-editors)
 - [8. Install sl](#8-install-sl)
 - [9. Make `date` return random dates](#9-make-date-return-random-dates)
+- [10. Dancing parrot on your terminal](#10-dancing-parrot-on-your-terminal)
 
 
 ## 1. Slow down the terminal
@@ -140,3 +141,7 @@ function cal() {
 ```
 
 ![cal](./img/cal.png)
+
+## 10. Dancing parrot on your terminal
+
+![parrot](./img/whitepng/10.png)
