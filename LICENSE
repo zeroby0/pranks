@@ -1,21 +1,31 @@
-MIT License
+SUPER IMPORTANT LEGAL DOCUMENT
+------------------------------
+I don't give two hoots what you do with any of the code you find here.
 
-Copyright (c) 2018 Aravind Reddy V.
+Actually, I do. I hope you take it and use it, uncredited, on a super commercial website and get 
+wicked rich off it. I hope you use it at work and your boss is impressed and you get a big 
+promotion. I hope it helps you design a software and that software impresses somebody you think is 
+super hot and you get married and have smart, chill babies. I hope you use the code in a blog post 
+you write elsewhere and that website gets way more popular and awesome than this one.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+If you feel like telling me about it, cool. If not, no big deal. If you feel better crediting it, 
+that's cool. If not, don't sweat it.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+If you copy the entire code from this repo and republish it on your own site like you wrote it,
+that's a little uncool. I won't be mad at you for stealing, I just think you're better than that
+and want to see you do better. I'm not going to come after you though. I'd rather play ball with my
+dog. The only time I'll be mad at you is if you go out of your way to try and hurt me somehow. And 
+again I probably won't even be mad, just sad. Unless I'm having a bad day too, in which case I
+apologize in advance for my snarky replies.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This code is released into the public domain. Do _whatever_ you want to do with it, unimpeded. 
+I'll still help you if you need it, just create an issue above. Send me a pull-request if you want
+to help. You'll be committing into the Public Domain when you make a PR to this repo. Feel free to
+do as you please with your fork, though.
+
+I want the web to get better and being all Johnny Protective over everything doesn't get us there. 
+I understand other people feel differently about this and might have semi-legit reasons for
+protecting certain code, design, writing, or whatever. I work on some closed-source projects myself. 
+This program/article isn't one of them. Go nuts.
+
+(Adapted from [css-tricks.com](https://css-tricks.com/license/))
